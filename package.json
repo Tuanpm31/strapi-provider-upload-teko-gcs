@@ -1,0 +1,24 @@
+{
+  "name": "strapi-provider-upload-teko-gcs",
+  "version": "1.0.0",
+  "description": "Strapi provider for uniform bucket google cloud storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuanpm31/strapi-provider-upload-teko-gcs.git"
+  },
+  "author": "Pham Minh Tuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuanpm31/strapi-provider-upload-teko-gcs/issues"
+  },
+  "homepage": "https://github.com/Tuanpm31/strapi-provider-upload-teko-gcs#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.0.1",
+    "slugify": "^1.4.0",
+    "strapi": "^3.0.0-beta.20.3"
+  }
+}
