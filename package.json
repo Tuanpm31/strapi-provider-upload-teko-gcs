@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-teko-gcs",
-  "version": "^3.0.0-beta.20.3",
+  "version": "3.0.0-beta.20.3",
   "description": "Strapi provider for uniform bucket google cloud storage",
   "main": "index.js",
   "scripts": {
