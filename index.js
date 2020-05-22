@@ -4,7 +4,6 @@ const slugify = require('slugify')
 const { Storage } = require('@google-cloud/storage')
 
 const checkServiceAccount = (config) => {
-  print(config)
   if (!config.serviceAccount) {
     throw new Error('"Service Account JSON" is required!')
   }
